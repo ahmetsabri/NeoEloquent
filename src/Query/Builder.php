@@ -229,6 +229,9 @@ class Builder
         $this->client = $connection->getClient();
     }
 
+    public function getChanges() {
+        return true;
+    }
     /**
      * Set the columns to be selected.
      *
